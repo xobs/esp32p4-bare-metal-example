@@ -1,0 +1,9 @@
+[package]
+name = "esp32p4-bare-metal-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+panic-halt = "1.0.0"
+rtt-target = "0.6.2"
+riscv = { version = "0.15", features = ["critical-section-single-hart"] }
